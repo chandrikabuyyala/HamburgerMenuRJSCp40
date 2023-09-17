@@ -32,6 +32,7 @@ const Header = () => (
           <div className="modal-container">
             <button
               className="close-button"
+              data-testid="closeButton"
               type="button"
               onClick={() => close()}
             >
